@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🗼Torre de Hanoi🥏</title>
+    <link rel="stylesheet" href="Torre de Hanoi.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>🗼TORRE DE HANOI🥏</h1>
+    </div>
+    <div class="contenedorBoton">
+        <button onclick="miJuego.reiniciar()" class="boton">🔄</button>
+        <input type="number" id="numeroInput" min="3" max="10" step="1" value="3">
+        <button onclick="miJuego.iniciar(document.getElementById('numeroInput').value)" class="boton">Nuevo Juego</button>
+    </div>
+    <div class="contenedorBoton"></div>
+    <div class="contenedorBoton">
+        <div class="tablero">
+            
+            <div class="ficha columnaExtra">
+            </div>
+        </div>
+    </div>
+    <div class="contenedorBoton"></div>
+    <div class="contenedor">
+        <div class="tablero">
+            <div class="columna">
+                
+            </div>
+            <div class="columna">
+
+            </div>
+            <div class="columna">
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="contenedorBoton"></div>
+    <div class="contenedorBoton">
+        <div class="tablero">
+            <div class="columnaExtra">
+                <button class="boton" onclick="miJuego.boton(1)">⬆️⬇️</button>
+            </div>
+            <div class="columnaExtra">
+                <button class="boton" onclick="miJuego.boton(2)">⬆️⬇️</button>
+            </div>
+            <div class="columnaExtra">
+                <button class="boton" onclick="miJuego.boton(3)">⬆️⬇️</button>
+            </div>
+        </div>
+    </div>
+    <div class="contenedorBoton"></div>
+    <div class="contenedorBoton"></div>
+    <div class="contenedorBoton">
+        <div class="tableroBotones">
+            <div class="columnaExtra">
+                <button class="botones1" onclick="window.location.href = './Reglas.html';">🤔Reglas🗒️</button>
+            </div>
+            <div class="columnaExtra">
+                <button class="botones2" onclick="window.location.href = './Historia.html';">🔍Historia📜</button>
+            </div>
+        </div>
+    </div>
+    <script src="Torre de Hanoi.js">
+    </script>
+</body>
+
+</html>

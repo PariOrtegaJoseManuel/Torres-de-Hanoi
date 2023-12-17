@@ -1,0 +1,216 @@
+body{
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contenedor {
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorBoton {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    text-align: center;
+    padding: 2px;
+    font-size: 150%;
+}
+.subtitulo {
+    text-align: center;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tablero {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.columna {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    background-image: url('img/poste.jpeg');
+    flex-direction: column-reverse;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.columnaExtra {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.disco10 {
+    background-color: red;
+    width: 100%;
+}
+
+.disco9 {
+    background-color: orange;
+    width: 90%;
+}
+
+.disco8 {
+    background-color: yellow;
+    width: 80%;
+}
+
+.disco7 {
+    background-color: greenyellow;
+    width: 70%;
+}
+
+.disco6 {
+    background-color: chartreuse;
+    width: 60%;
+}
+
+.disco5 {
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.disco4 {
+    background-color: #2eeafa;
+    width: 40%;
+}
+
+.disco3 {
+    background-color: lightskyblue;
+    width: 30%;
+}
+
+.disco2 {
+    background-color: #0ab0e9;
+    width: 20%;
+}
+
+.disco1 {
+    background-color: #1fb2d0;
+    width: 10%;
+    
+}
+
+.discos {
+    border-radius: 4px;
+    height: 10%;
+    padding: 2PX;
+}
+
+.contenedorBoton>.tablero>.columnaExtra>.discos {
+    border-radius: 4px;
+    height: 100%;
+}
+input[type="number"] {
+    width: 2%; 
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    outline: none;
+  }
+.historia{
+    height: 100%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    text-align: justify;
+}
+
+.reglas{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.bodyHistoria{
+    background-image: url('img/fondoHistoria.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.botones1 {
+    font-size: 20px;
+    padding: 10px 10px;
+    color: black;
+    background-color: #0ab0e9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botones2 {
+    font-size: 20px;
+    padding: 10px 10px;
+    color: black;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botones3 {
+    font-size: 20px;
+    padding: 10px 10px;
+    color: black;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tableroBotones {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bodyReglas{
+    background-image: url('img/reglas.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.estrellas{
+    height: 30%;
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.calificacion{
+    height: 30%;
+    width: 30%;
+}
